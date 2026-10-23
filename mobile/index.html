@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head><script defer src="/kaad-apercu/mobile/coi-serviceworker.min.js"></script>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>KAAD</title>
+    <!-- Remise à zéro recommandée par react-native-web : page et racine en pleine hauteur -->
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        overflow: hidden;
+        margin: 0;
+        background: #F3F4FB;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+      /* logotype statique du démarrage (généré depuis les jetons : outils/page-web.cjs) */
+      .kaad-lancement {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .kaad-lancement span {
+        display: block;
+        font: 700 46.800000000000004px/56.160000000000004px Sora, system-ui, sans-serif;
+        letter-spacing: 3.6px;
+        color: #2B3A8C;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #0F1322;
+        }
+        .kaad-lancement span {
+          color: #A9B4FF;
+        }
+      }
+    </style>
+  <link rel="icon" href="/kaad-apercu/mobile/favicon.ico"/></head>
+  <body>
+    <noscript>KAAD a besoin de JavaScript pour fonctionner.</noscript>
+    <div id="root">
+      <div class="kaad-lancement" role="img" aria-label="KAAD">
+        <div style="width: 180px">
+          <span>KAAD</span>
+          <svg width="180" height="21.599999999999998" viewBox="0 0 100 12" aria-hidden="true">
+            <path d="M2 10 L70 9 Q84 8.5 93 4" stroke="#F2A93B" stroke-width="1.6" stroke-linecap="round" fill="none" />
+            <circle cx="94" cy="3.6" r="2.4" fill="#F2A93B" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  <script src="/kaad-apercu/mobile/_expo/static/js/web/entry-55c03b8c4e838063ffbaecf4d95509d6.js" defer></script>
+</body>
+</html>
